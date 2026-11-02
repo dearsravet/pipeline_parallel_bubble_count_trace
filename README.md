@@ -1,11 +1,11 @@
-# rlrsr_jd494
+# pipeline_parallel_bubble_count_trace
 
 **追溯强化学习研究员·流水线并行气泡比例里每一份贡献来自哪里。**
 
-`rlrsr_jd494` —— 统计各来源片段的贡献量与占比，标出强化学习研究员·流水线并行气泡比例上最主要的来源
+`pipeline_parallel_bubble_count_trace` —— 统计各来源片段的贡献量与占比，标出强化学习研究员·流水线并行气泡比例上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`rlrsr_jd494.py` 拷走就能用
+- 单文件，`pipeline_parallel_bubble_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install dearsravet-rlrsr_jd494
+pip install dearsravet-pipeline_parallel_bubble_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-rlrsr_jd494 --help
+pipeline_parallel_bubble_count_trace --help
 ```
 
-也可以不用安装，直接把 `rlrsr_jd494.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `pipeline_parallel_bubble_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ rlrsr_jd494 --help
 ## 用法
 
 ```bash
-python rlrsr_jd494.py --file input.txt
-python rlrsr_jd494.py --text "示例内容"
-python rlrsr_jd494.py --file input.txt --json
+python pipeline_parallel_bubble_count_trace.py --file input.txt
+python pipeline_parallel_bubble_count_trace.py --text "示例内容"
+python pipeline_parallel_bubble_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python rlrsr_jd494.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_rlrsr_jd494.py
+python test_pipeline_parallel_bubble_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_rlrsr_jd494.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/dearsravet/rlrsr_jd494>
+- GitHub 仓库：<https://github.com/dearsravet/pipeline_parallel_bubble_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_rlrsr_jd494.py
 dearsravet 做强化学习研究员·流水线并行气泡比例相关的问题，方向对标小米的初级强化学习研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://dearsravet.github.io>
-- 仓库：<https://github.com/dearsravet/rlrsr_jd494>
+- 仓库：<https://github.com/dearsravet/pipeline_parallel_bubble_count_trace>
 
 ## 许可
 
